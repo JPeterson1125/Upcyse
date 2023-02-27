@@ -85,6 +85,9 @@ a {
   .img-about-sm {
     display: none;
   }
+  .about-btn {
+    width: 100%;
+  }
 }
 
 /* Sections */
