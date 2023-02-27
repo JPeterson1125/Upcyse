@@ -27,7 +27,7 @@ a {
 }
 
 /* Breakpoints */
-@media (max-width: 1150px) {
+@media (max-width: 1125px) {
   .cta-text {
     padding: 10%;
   }
@@ -37,7 +37,11 @@ a {
   .nav-button{
     margin: auto;
     width: 100%;
+    position: absolute;
+    top: 10px;
+    right: 27px;
   }
+
   a {
     padding: 0;
     margin: 0;
@@ -51,10 +55,25 @@ a {
   }
   .about-us-text {
     border: solid 5px black;
+    width: 75%;
+    position: relative;
+    left: 30px;
+  }
+  .about-btn {
+    position: relative;
+    left: 0px;
   }
   .nav-link {
     position: relative;
     top: 10px;
+  }
+  #cta-button {
+  position: relative;
+  bottom: 30px;
+  left: 25px;
+  }
+  .contact-contacts {
+    padding-top: 5%;
   }
 }
 
@@ -248,10 +267,6 @@ a {
 .socials {
   padding: 1% 0;
 }
-
-
-
-
 
 /* CTA Page */
 
