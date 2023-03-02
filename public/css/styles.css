@@ -28,9 +28,6 @@ a {
 
 /* Breakpoints */
 @media (max-width: 1125px) {
-  h2 {
-    font-size: 120%;
-  }
 
   p {
     font-size: 130%;
@@ -39,7 +36,9 @@ a {
   label {
     font-size: 120%;
   }
-
+  .mobile-h2 {
+    font-size: 150%;
+  }
   .cta-text {
     padding: 10%;
   }
@@ -94,7 +93,7 @@ a {
   }
 
   .contact-contacts {
-    padding-top: 5%;
+    padding-top: 10%;
   }
 
   .navbar-toggler {
