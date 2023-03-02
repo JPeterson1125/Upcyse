@@ -37,7 +37,7 @@ a {
     font-size: 120%;
   }
   .mobile-h2 {
-    font-size: 150%;
+    font-size: 130%;
   }
   .cta-text {
     padding: 10%;
@@ -313,6 +313,10 @@ a {
   padding: 2%;
   background: rgb(255, 255, 255);
   background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(138, 199, 175, 1) 100%, rgba(33, 33, 33, 1) 100%);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 .socials {
