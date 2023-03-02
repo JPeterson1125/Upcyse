@@ -28,13 +28,27 @@ a {
 
 /* Breakpoints */
 @media (max-width: 1125px) {
+  h2 {
+    font-size: 120%;
+  }
+
+  p {
+    font-size: 130%;
+  }
+
+  label {
+    font-size: 120%;
+  }
+
   .cta-text {
     padding: 10%;
   }
+
   .logo-container {
     width: 100%;
   }
-  .nav-button{
+
+  .nav-button {
     margin: auto;
     width: 100%;
     position: absolute;
@@ -46,39 +60,48 @@ a {
     padding: 0;
     margin: 0;
   }
+
   .img-about-sm {
     position: relative;
     width: 100%;
   }
+
   .img-about-lg {
     display: none;
   }
+
   .about-us-text {
     border: solid 5px black;
     width: 75%;
     position: relative;
     left: 30px;
   }
+
   .about-btn {
     position: relative;
     left: 0px;
   }
+
   .nav-link {
     position: relative;
     top: 10px;
   }
+
   #cta-button {
-  position: relative;
-  bottom: 30px;
-  left: 25px;
+    position: relative;
+    bottom: 30px;
+    left: 25px;
   }
+
   .contact-contacts {
     padding-top: 5%;
   }
+
   .navbar-toggler {
     position: relative;
     left: 150px;
   }
+
   .logo {
     position: relative;
     right: 160px;
@@ -90,18 +113,25 @@ a {
     position: relative;
     left: 10px;
   }
+
   .img-about-sm {
     display: none;
   }
+
   .about-btn {
     width: 100%;
   }
+
   .contact-contacts {
     padding-top: 5%;
   }
+
   .submit-button {
     position: relative;
     right: 10px;
+  }
+  .cta-btn {
+    width: 100%;
   }
 }
 
@@ -182,7 +212,6 @@ a {
   margin: 10% 0 0;
 }
 
-
 /* Services */
 .feature-imgs {
   color: #F05335;
@@ -250,7 +279,6 @@ a {
   margin: 5% 0 0;
 }
 
-
 /* FAQ */
 .faq-outer {
   background-color: black;
@@ -266,6 +294,7 @@ a {
 .faq-heading {
   padding: 4% 0 2%;
 }
+
 .accordion-body {
   text-align: left;
 }
@@ -288,7 +317,6 @@ a {
 }
 
 /* CTA Page */
-
 .contact-box {
   padding: 4% 6% 8%;
 }
@@ -296,6 +324,7 @@ a {
 .message-text {
   padding: 0 0 3% 0;
 }
+
 .form-component {
   padding: 5px;
 }
