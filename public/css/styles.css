@@ -132,6 +132,9 @@ a {
   .cta-btn {
     width: 100%;
   }
+  .footer-container {
+    background-color: white;
+  }
 }
 
 /* Sections */
