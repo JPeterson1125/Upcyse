@@ -75,6 +75,14 @@ a {
   .contact-contacts {
     padding-top: 5%;
   }
+  .navbar-toggler {
+    position: relative;
+    left: 150px;
+  }
+  .logo {
+    position: relative;
+    right: 160px;
+  }
 }
 
 @media (min-width: 1150px) {
@@ -88,7 +96,13 @@ a {
   .about-btn {
     width: 100%;
   }
-
+  .contact-contacts {
+    padding-top: 5%;
+  }
+  .submit-button {
+    position: relative;
+    right: 10px;
+  }
 }
 
 /* Sections */
@@ -281,4 +295,7 @@ a {
 
 .message-text {
   padding: 0 0 3% 0;
+}
+.form-component {
+  padding: 5px;
 }
