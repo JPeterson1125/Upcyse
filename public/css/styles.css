@@ -302,6 +302,10 @@ a {
 #footer .container-fluid {
   padding: 5% 0 2%;
   text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 .footer-container {
