@@ -29,6 +29,10 @@ a {
 /* Breakpoints */
 @media (max-width: 1125px) {
 
+  a {
+    font-size: 130%;
+  }
+
   p {
     font-size: 150%;
   }
@@ -72,7 +76,7 @@ a {
   .about-us-text {
     width: 100%;
     position: relative;
-    right: 77px;
+    right: 80px;
   }
 
   .about-btn {
