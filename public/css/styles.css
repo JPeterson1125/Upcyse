@@ -30,14 +30,14 @@ a {
 @media (max-width: 1125px) {
 
   p {
-    font-size: 130%;
+    font-size: 150%;
   }
 
   label {
-    font-size: 120%;
+    font-size: 140%;
   }
   .mobile-h2 {
-    font-size: 130%;
+    font-size: 150%;
   }
   .cta-text {
     padding: 10%;
@@ -70,10 +70,9 @@ a {
   }
 
   .about-us-text {
-    border: solid 5px black;
-    width: 75%;
+    width: 100%;
     position: relative;
-    left: 30px;
+    right: 77px;
   }
 
   .about-btn {
@@ -84,12 +83,17 @@ a {
   .nav-link {
     position: relative;
     top: 10px;
+    font-size: 150%;
   }
 
   #cta-button {
     position: relative;
     bottom: 30px;
     left: 25px;
+  }
+
+  .cta-heading {
+    font-size: 150%;
   }
 
   .contact-contacts {
@@ -104,6 +108,10 @@ a {
   .logo {
     position: relative;
     right: 160px;
+    width: 150%;
+  }
+  .logo-container {
+    padding: 3% 0;
   }
 }
 
